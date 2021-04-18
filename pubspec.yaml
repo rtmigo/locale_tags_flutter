@@ -13,7 +13,7 @@ dependencies:
 
   flocomotion:
     git:
-      url: https://github.com/rtmigo/flocomotion
+      url: https://github.com/rtmigo/flocomotion_flutter
 #  flocomotion:
 #    path: ../flocomotion
 
