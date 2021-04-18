@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: (c) 2021 Artёm IG <github.com/rtmigo>
+// SPDX-License-Identifier: MIT
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/material.dart';
 import 'package:locale_tags/locale_tags.dart';
