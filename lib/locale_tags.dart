@@ -32,6 +32,9 @@ Locale tagToLocale(String tag) {
   }
 
   var lang = words.first;
+  if (lang.trim().isEmpty) {
+    lang = 'und';
+  }
 
   String? script, country;
 

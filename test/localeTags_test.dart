@@ -22,6 +22,11 @@ void main() {
     expect(removeTrailingDashes('en--'), equals('en'));
   });
 
+  test('localeToTag empty', () {
+    expect(tagToLocale('').toString(), equals('und'));
+    expect(tagToLocale(' ').toString(), equals('und'));
+  });
+
   test('localeToTag', () {
     // сравнение объектов Locale, похоже, не работает - поэтому сравниваю с результатом toString
     expect(tagToLocale('en').toString(), equals('en'));
@@ -39,5 +44,7 @@ void main() {
     expect(tagToLocale('ru-BE').languageCode, equals('ru'));
     expect(tagToLocale('ru-BE').scriptCode, equals(null));
     expect(tagToLocale('ru-BE').countryCode, equals('BE'));
+
+
   });
 }

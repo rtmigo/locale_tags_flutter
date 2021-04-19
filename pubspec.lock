@@ -56,7 +56,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: e928d2edd974809828e0a3538828dddae838645e
-      url: "https://github.com/rtmigo/flocomotion"
+      url: "https://github.com/rtmigo/flocomotion_flutter"
     source: git
     version: "0.0.0+0"
   flutter:
